@@ -1,0 +1,134 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "GABBEH",
+      "instagram": "john@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Talha Eren",
+      "instagram": "jane@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Jim Brown",
+      "instagram": "jim@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Jill Johnson",
+      "instagram": "jill@example.com"
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "title": "The Yellow Bridge",
+      "releaseDate": "2024-05-09",
+      "label": "Soma",
+      "genre": "Techno",
+      "albumGroup": "Album",
+      "artistId": 1
+    },
+    {
+      "id": 2,
+      "title": "Hard Basics",
+      "releaseDate": "2024-12-11",
+      "label": "Soma",
+      "genre": "Techno",
+      "albumGroup": "Single",
+      "artistId": 1
+    },
+    {
+      "id": 3,
+      "title": "Hello little one",
+      "releaseDate": "2025-02-09",
+      "label": "Red Fang",
+      "genre": "Techno",
+      "albumGroup": "Single",
+      "artistId": 1
+    },
+    {
+      "id": 4,
+      "title": "The Begin",
+      "releaseDate": "2024-02-09",
+      "label": "Maverick",
+      "genre": "Progressive House",
+      "albumGroup": "Album",
+      "artistId": 2
+    },
+    {
+      "id": 5,
+      "title": "React Router Basics",
+      "releaseDate": "2024-12-09",
+      "label": "T-rex",
+      "genre": "Progressive House",
+      "albumGroup": "Single",
+      "artistId": 2
+    },
+    {
+      "id": 6,
+      "title": "Hayalet",
+      "releaseDate": "2025-01-09",
+      "label": "Maverick",
+      "genre": "Progressive House",
+      "albumGroup": "Single",
+      "artistId": 2
+    },
+    {
+      "id": 7,
+      "title": "Varadana",
+      "releaseDate": "2024-08-19",
+      "label": "Soleo",
+      "genre": "Deep House",
+      "albumGroup": "Album",
+      "artistId": 3
+    },
+    {
+      "id": 8,
+      "title": "React Router Basics",
+      "releaseDate": "2024-12-09",
+      "label": "T-records",
+      "genre": "Deep House",
+      "albumGroup": "Single",
+      "artistId": 3
+    },
+    {
+      "id": 9,
+      "title": "Jett",
+      "releaseDate": "2025-02-02",
+      "label": "Feel Free",
+      "genre": "Indie",
+      "albumGroup": "Single",
+      "artistId": 4
+    },
+    {
+      "id": 10,
+      "title": "Savage",
+      "releaseDate": "2024-05-09",
+      "label": "RobotoRecords",
+      "genre": "Indie",
+      "albumGroup": "Album",
+      "artistId": 4
+    },
+    {
+      "id": 11,
+      "title": "Cronos",
+      "releaseDate": "2024-10-09",
+      "label": "RobotoRecords",
+      "genre": "Indie",
+      "albumGroup": "Single",
+      "artistId": 4
+    },
+    {
+      "id": 12,
+      "title": "Blood On The Dance Floor",
+      "releaseDate": "2025-03-09",
+      "label": "RobotoRecords",
+      "genre": "Indie",
+      "albumGroup": "Single",
+      "artistId": 4
+    }
+  ]
+} 

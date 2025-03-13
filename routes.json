@@ -1,0 +1,7 @@
+{
+  "/api/artists": "/artists",
+  "/api/artists/:id": "/artists/:id",
+  "/api/albums": "/albums",
+  "/api/albums/:id": "/albums/:id",
+  "/api/artists/:id/albums": "/albums?artistId=:id"
+} 
