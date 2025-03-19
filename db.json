@@ -29,6 +29,7 @@
       "label": "Soma",
       "genre": "Techno",
       "albumGroup": "Album",
+      "popularity": 80,
       "artistId": 1
     },
     {
@@ -38,6 +39,7 @@
       "label": "Soma",
       "genre": "Techno",
       "albumGroup": "Single",
+      "popularity": 90,
       "artistId": 1
     },
     {
@@ -47,15 +49,17 @@
       "label": "Red Fang",
       "genre": "Techno",
       "albumGroup": "Single",
+      "popularity": 95,
       "artistId": 1
     },
     {
       "id": 4,
       "title": "The Begin",
-      "releaseDate": "2024-02-09",
+      "releaseDate": "2025-02-09",
       "label": "Maverick",
       "genre": "Progressive House",
       "albumGroup": "Album",
+      "popularity": 190,
       "artistId": 2
     },
     {
@@ -65,6 +69,7 @@
       "label": "T-rex",
       "genre": "Progressive House",
       "albumGroup": "Single",
+      "popularity": 195,
       "artistId": 2
     },
     {
@@ -74,6 +79,7 @@
       "label": "Maverick",
       "genre": "Progressive House",
       "albumGroup": "Single",
+      "popularity": 200,
       "artistId": 2
     },
     {
@@ -83,6 +89,7 @@
       "label": "Soleo",
       "genre": "Deep House",
       "albumGroup": "Album",
+      "popularity": 225,
       "artistId": 3
     },
     {
@@ -92,6 +99,7 @@
       "label": "T-records",
       "genre": "Deep House",
       "albumGroup": "Single",
+      "popularity": 30,
       "artistId": 3
     },
     {
@@ -101,6 +109,7 @@
       "label": "Feel Free",
       "genre": "Indie",
       "albumGroup": "Single",
+      "popularity": 70,
       "artistId": 4
     },
     {
@@ -110,6 +119,7 @@
       "label": "RobotoRecords",
       "genre": "Indie",
       "albumGroup": "Album",
+      "popularity": 100,
       "artistId": 4
     },
     {
@@ -119,6 +129,7 @@
       "label": "RobotoRecords",
       "genre": "Indie",
       "albumGroup": "Single",
+      "popularity": 105,
       "artistId": 4
     },
     {
@@ -128,6 +139,7 @@
       "label": "RobotoRecords",
       "genre": "Indie",
       "albumGroup": "Single",
+      "popularity": 110,
       "artistId": 4
     }
   ]

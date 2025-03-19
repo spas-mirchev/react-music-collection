@@ -1,58 +1,5 @@
 const API_URL = 'http://localhost:3001';
 
-// User-related API calls
-export const fetchUsers = async () => {
-  try {
-    const response = await fetch(`${API_URL}/users`);
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return await response.json();
-  } catch (error) {
-    console.error('Error fetching users:', error);
-    return [];
-  }
-};
-
-export const fetchUserById = async (userId) => {
-  try {
-    const response = await fetch(`${API_URL}/users/${userId}`);
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return await response.json();
-  } catch (error) {
-    console.error(`Error fetching user ${userId}:`, error);
-    return null;
-  }
-};
-
-// Post-related API calls
-export const fetchPosts = async () => {
-  try {
-    const response = await fetch(`${API_URL}/posts`);
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return await response.json();
-  } catch (error) {
-    console.error('Error fetching posts:', error);
-    return [];
-  }
-};
-
-export const fetchPostsByUser = async (userId) => {
-  try {
-    const response = await fetch(`${API_URL}/posts?userId=${userId}`);
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return await response.json();
-  } catch (error) {
-    console.error(`Error fetching posts for user ${userId}:`, error);
-    return [];
-  }
-};
 
 // Album-related API calls
 export const fetchAlbums = async () => {
